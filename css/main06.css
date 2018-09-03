@@ -1309,3 +1309,34 @@ ul.o {
 .mb-2 {
     margin-bottom: 20px;
 }
+
+.controls {
+    position: absolute;
+    top: -36px;
+    left: 50%;
+    z-index: 15;
+    width: 30%;
+    padding-left: 0;
+    margin-left: -15%;
+    text-align: center;
+}
+
+.rev {
+    font-family: pfdintextcomppro;
+    font-size: 22px;
+    line-height: 30px;
+    background-color: #fdeaa8;
+    border-radius: 10px;
+    min-height: 300px;
+    width: 600px;
+    margin: 20px auto;
+}
+
+.rev-img {
+    width: 150px;
+    height: 150px;
+}
+
+.rev a {
+    font-size: 30px;
+}

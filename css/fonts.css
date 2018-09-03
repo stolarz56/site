@@ -65,3 +65,10 @@
 	font-weight: 900;
 	src: local('kievit'), local('kievit-Regular'), url(../fonts/kievit/kievit-extrabold-webfont.woff) format('woff');
   }
+
+  @font-face {
+	font-family: "pfdintextcomppro";
+	src: url("../fonts/pfdintextcomppro/pfdintextcomppro-regular.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
