@@ -1305,3 +1305,7 @@ ul.o {
 .help-block {
     font-size: 10px;
 }
+
+.mb-2 {
+    margin-bottom: 20px;
+}
