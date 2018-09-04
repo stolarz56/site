@@ -751,6 +751,7 @@ address {
     width: 100%;
     text-align: center;
     color: #fff;
+    padding-top: 80px;
 }
 
 .index .cnt .logo {
@@ -1330,7 +1331,7 @@ ul.o {
     min-height: 300px;
     max-width: 600px;
     margin: 20px auto;
-    
+
 }
 
 .rev-img {
@@ -1357,3 +1358,4 @@ ul.o {
 .so-form img {
     margin: 30px auto;
 }
+

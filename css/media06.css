@@ -375,6 +375,10 @@
         border-radius: 0;
     }
 
+    .cnt {
+        padding-top: 0;
+    }
+
 }
 
 /* Custom, iPhone Retina */
