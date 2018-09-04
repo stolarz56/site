@@ -82,7 +82,7 @@
     }
 
     div#overlap-menu .cnt .menu li {
-        font-size: 3vh;
+        font-size: 5vh;
         line-height: 50px;
     }
 
@@ -435,6 +435,11 @@
 
     .block_sketch_text {
         font-size: 14px;
+    }
+
+    .so-form img {
+        margin: 0 auto;
+        width: 70px;
     }
 }
 

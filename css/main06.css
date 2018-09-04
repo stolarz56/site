@@ -992,6 +992,7 @@ div#overlap-menu .cnt .menu li {
     font-size: 45px;
     line-height: 82px;
     color: #82533b;
+    font-weight: bold;
 }
 
 div#overlap-menu .phone {
@@ -1010,7 +1011,6 @@ li {
 }
 
 div#overlap-menu .cnt .menu li a {
-    color: #1a1b1b;
     text-decoration: none;
     transition: all .5s ease;
 }
@@ -1363,6 +1363,11 @@ ul.o {
 
 .so-form img {
     margin: 30px auto;
+}
+
+.so-form h4 {
+    line-height: 3rem;
+    font-size: 20px;
 }
 
 .xsmall {
