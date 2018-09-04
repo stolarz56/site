@@ -1359,3 +1359,11 @@ ul.o {
     margin: 30px auto;
 }
 
+.xsmall {
+    font-size: 50%;
+}
+
+.price {
+    margin-top: 7px;
+    display: inline-block;
+}
