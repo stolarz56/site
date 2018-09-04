@@ -98,6 +98,11 @@
     .right .adress {
         font-size: 22px;
     }
+
+    .price {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -195,11 +200,25 @@
     .right .adress {
         font-size: 18px;
     }
+
+    .cover h2 {
+        font-size: 22px;
+        margin-top: 36px;
+        height: 40px;
+    }
+
+    .block_sketch_text {
+        font-size: 18px;
+    }
 }
 
 @media only screen and (max-width: 620px) {
     .index .cnt .logo {
         margin: 160px auto 10px auto;
+    }
+
+    .block_sketch_text {
+        font-size: 15px;
     }
 }
 
@@ -407,6 +426,29 @@
     .cnt {
         padding-top: 0;
     }
+
+    .cover h2 {
+        font-size: 15px;
+        margin-top: 36px;
+        height: 40px;
+    }
+
+    .block_sketch_text {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:426px) {
+    .cover h2 {
+        font-size: 15px;
+        margin-top: 36px;
+        height: 40px;
+    }
+
+    .block_sketch_text {
+        font-size: 10px;
+        line-height: 17px;
+    }
 }
 
 /* Custom, iPhone Retina */
@@ -474,6 +516,9 @@
         margin-left: 0;
         margin-right: 0;
     }
+
+    
+}
 }
 
 /*==========  Mobile First Method  ==========*/

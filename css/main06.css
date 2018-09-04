@@ -1410,7 +1410,6 @@ ul.o {
 
 .sketch {
     width: 100%;
-    min-height: 340px;
     background: url(../img/work/1.jpg) center center no-repeat;
     background-size: cover;
     color: white;
@@ -1424,7 +1423,6 @@ ul.o {
 
 .sketch .cover {
     width: 100%;
-    min-height: 340px;
     background: rgba(0, 0, 0, 0.7);
 }
 
@@ -1458,7 +1456,7 @@ ul.o {
 }
 
 .sketch-bottom, .sketch-bottom .cover {
-    min-height: 230px;
+    /* min-height: 230px; */
 }
 
 .modal-header {
