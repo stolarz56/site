@@ -144,7 +144,7 @@ $(function() {
         });
         setTimeout(function(){
             $('#modelform').show();
-        }, 2000);
+        }, 30000);
 
         $('#modelformClose').click(function(){
             $('#modelform').hide();
