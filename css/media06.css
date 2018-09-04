@@ -1,354 +1,383 @@
 @media screen and (max-width: 1420px) {
-	.index .cnt h2 {
-		font-size: 60px;
-		line-height: 60px;
-		letter-spacing: 3px;
-		padding-top: 40px;
-		padding-bottom: 40px;
-	}
-	.index #main-menu .toggle {
-		top: 21px;
-		left: 24px;
-	}
-	.index .btn.bigger {
-		margin-top: 20px;
-		-webkit-border-radius: 20px;
-		-moz-border-radius: 20px;
-		-ms-border-radius: 20px;
-		border-radius: 20px;
-		font-size: 18px;
-		line-height: 40px;
-		height: 40px;
-		padding: 0 30px;
-	}
-	.index #main-menu .toggle {
-		top: 21px;
-		left: 24px;
-	}
-	.index #main-menu .right {
-		top: 46px;
-		right: 50px;
-	}
+    .index .cnt h2 {
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: 0px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .index #main-menu .toggle {
+        top: 21px;
+        left: 24px;
+    }
+
+    .index #main-menu .toggle {
+        top: 21px;
+        left: 24px;
+    }
+
+    .index #main-menu .right {
+        top: 46px;
+        right: 50px;
+    }
 }
 
 @media screen and (max-width: 1260px) {
-	.index .cnt h2 {
-		font-size: 45px;
-		line-height: 45px;
-		letter-spacing: 3px;
-		padding-top: 30px;
-		padding-bottom: 30px;
-	}
-	div#overlap-menu .cnt .menu li {
-		font-size: 34px;
-		line-height: 60px;
-	}
-	.index #main-menu .toggle div {
-		left: 28px;
-		width: 24px;
-		height: 3px;
-	}
-	.index #main-menu .toggle span {
-		position: absolute;
-		left: 62px;
-		font-size: 16px;
-	}
-	.index #main-menu .toggle {
-		top: 8px;
-		left: 11px;
-	}
-	.index #main-menu .toggle .c {
-		top: 46px;
-	}
-	.index #main-menu .toggle .b {
-		top: 39px;
-	}
-	.index #main-menu .toggle .a {
-		top: 32px;
-	}
-	.index #main-menu .toggle {
-		top: 8px;
-		left: 11px;
-	}
-	.index .btn {
-		font-size: 18px;
-	}
-	.index .btn {
-		display: inline-block;
-		font-size: 16px;
-		line-height: 36px;
-		height: 36px;
-		color: #fff;
-		-webkit-border-radius: 20px;
-		-moz-border-radius: 20px;
-		-ms-border-radius: 20px;
-		border-radius: 20px;
-		padding: 0 27px;
-		vertical-align: top;
-		cursor: pointer;
-		-webkit-transition: background-color .5s ease, color .5s ease, border-color .5s ease;
-		-moz-transition: background-color .5s ease, color .5s ease, border-color .5s ease;
-		-ms-transition: background-color .5s ease, color .5s ease, border-color .5s ease;
-		transition: background-color .5s ease, color .5s ease, border-color .5s ease;
-	}
-	.index #main-menu .right {
-		top: 40px;
-		right: 40px;
-	}
+    .index .cnt h2 {
+        font-size: 35px;
+        line-height: 35px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 
-	
+    div#overlap-menu .cnt .menu li {
+        font-size: 34px;
+        line-height: 60px;
+    }
+
+    .index #main-menu .toggle div {
+        left: 28px;
+        width: 24px;
+        height: 3px;
+    }
+
+    .index #main-menu .toggle span {
+        position: absolute;
+        left: 62px;
+        font-size: 16px;
+    }
+
+    .index #main-menu .toggle {
+        top: 8px;
+        left: 11px;
+    }
+
+    .index #main-menu .toggle .c {
+        top: 46px;
+    }
+
+    .index #main-menu .toggle .b {
+        top: 39px;
+    }
+
+    .index #main-menu .toggle .a {
+        top: 32px;
+    }
+
+    .index #main-menu .toggle {
+        top: 8px;
+        left: 11px;
+    }
+
+    .index #main-menu .right {
+        top: 40px;
+        right: 40px;
+    }
 }
 
 @media only screen and (max-width: 992px) {
-	.fitness-widget-table {
-		display: none;
-	}
-	div#overlap-menu .cnt .menu li {
-		font-size: 3vh;
-		line-height: 50px;
-	}
-	div#overlap-menu .cnt .menu li.bull {
-		font-size: 3vh;
-		padding: 0 20px;
-	}
+    .fitness-widget-table {
+        display: none;
+    }
+
+    div#overlap-menu .cnt .menu li {
+        font-size: 3vh;
+        line-height: 50px;
+    }
+
+    div#overlap-menu .cnt .menu li.bull {
+        font-size: 3vh;
+        padding: 0 20px;
+    }
+
+    .page-s {
+        font-size: 35px;
+    }
+
+    .right .adress {
+        font-size: 22px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
-	/*Disable Animation on Mobile Devices*/
-	.animated {
-		/*CSS transitions*/
-		-o-transition-property: none !important;
-		-moz-transition-property: none !important;
-		-ms-transition-property: none !important;
-		-webkit-transition-property: none !important;
-		transition-property: none !important;
-		/*CSS transforms*/
-		-o-transform: none !important;
-		-moz-transform: none !important;
-		-ms-transform: none !important;
-		-webkit-transform: none !important;
-		transform: none !important;
-		/*CSS animations*/
-		-webkit-animation: none !important;
-		-moz-animation: none !important;
-		-o-animation: none !important;
-		-ms-animation: none !important;
-		animation: none !important;
-	}
-	body {
-		font-size: 15px;
-	}
-	.logo img {
-		width: 200px;
-	}
-	.index .cnt h2 {
-		font-size: 30px;
-		line-height: 34px;
-		font-family: kievit-extrabold, Helvetica, Arial;
-		letter-spacing: 0;
-		padding-top: 40px;
-		padding-bottom: 48px;
-		text-rendering: geometricPrecision;
-	}
-	.adress {
-		/* display: none; */
-		font-size: 18px;
-	}
-	.index #main-menu .toggle {
-		top: 11px;
-		left: 11px;
-	}
-	.index #main-menu .right {
-		top: 32px;
-		right: 14px;
-	}
-	.page-social {
-		font-size: 25px;
-	}
-	.top-contacts {
-		font-size: 18px;
-	}
-	.index #main-menu .right .phone {
-		font-size: 18px;
-	}
-	div#overlap-menu .cnt .menu li.bull, #overlap-menu br {
-		display: none;
-	}
-	div#overlap-menu .cnt .menu li {
-		width: 100%;
-		line-height: 24px;
-	}
-	div#overlap-menu .cnt {
-		padding-top: 0px;
-	}
-	div#overlap-menu .cnt .logo {
-		width: 70px;
-    	height: 80px;
-	}
 
-	div#overlap-menu .cnt .menu li.sm-bull {
-		display: block;
-	  }
+    /*Disable Animation on Mobile Devices*/
+    .animated {
+        /*CSS transitions*/
+        -o-transition-property: none !important;
+        -moz-transition-property: none !important;
+        -ms-transition-property: none !important;
+        -webkit-transition-property: none !important;
+        transition-property: none !important;
+        /*CSS transforms*/
+        -o-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+        /*CSS animations*/
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+    }
+
+    body {
+        font-size: 15px;
+    }
+
+    .logo img {
+        width: 200px;
+    }
+
+    .index .cnt h2 {
+        font-size: 30px;
+        line-height: 34px;
+        font-family: kievit-extrabold, Helvetica, Arial;
+        letter-spacing: 0;
+        padding-top: 40px;
+        padding-bottom: 48px;
+        text-rendering: geometricPrecision;
+    }
+
+    .adress {
+        /* display: none; */
+        font-size: 18px;
+    }
+
+    .index #main-menu .toggle {
+        top: 11px;
+        left: 11px;
+    }
+
+    .index #main-menu .right {
+        top: 32px;
+        right: 14px;
+    }
+
+    .page-social {
+        font-size: 25px;
+    }
+
+    .top-contacts {
+        font-size: 18px;
+    }
+
+    .index #main-menu .right .phone {
+        font-size: 18px;
+    }
+
+    div#overlap-menu .cnt .menu li.bull,
+    #overlap-menu br {
+        display: none;
+    }
+
+    div#overlap-menu .cnt .menu li {
+        width: 100%;
+        line-height: 24px;
+    }
+
+    div#overlap-menu .cnt {
+        padding-top: 0px;
+    }
+
+    div#overlap-menu .cnt .logo {
+        width: 70px;
+        height: 80px;
+    }
+
+    div#overlap-menu .cnt .menu li.sm-bull {
+        display: block;
+    }
+
+    .right .adress {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .index .cnt .logo {
+        margin: 160px auto 10px auto;
+    }
 }
 
 /* Extra Small Devices, Phones */
-
 @media only screen and (max-width: 480px) {
-	.index #main-menu .toggle {
-		top: 0px;
-		left: 0px;
-	}
-	.phone {
-		font-size: 30px;
-	}
-	.btn {
-		font-size: 18px;
-	}
-	.top-panel {
-		display: none;
-	}
-	.logo {
-		margin-top: 10px;
-		margin-bottom: 10px;
-	}
-	.index #main-menu .right .phone {
-		font-size: 17px;
-	}
-	.page-social {
-		font-size: 26px;
-	}
-	div#overlap-menu .cnt .menu li {
-		line-height: 3vh;
-	}
-	div#overlap-menu .phone {
-		font-size: 24px;
-		margin-top: 10px;
-	}
-
-	.index .cnt .logo {
-		margin: 180px auto 10px auto;
-		height: 100px;
-		width: 91px;
-	}
-
-	.cap h3 {
-		margin: 7px 0;
-	}
-
-	#about-us .title {
-		margin-top: 10px;
-	}
-
-	#about-us .card-body {
-		margin-top: 3px;
-	}
-
-	#about-us .separator {
-		margin-bottom: 30px;
-	}
-
-	.h1, .h2, .h3, h1, h2, h3 {
-		margin-top: 10px;
-		margin-bottom: 10px;
-	}
-
-	#shed .row {
-		padding-top: 0;
-	}
-
-	.leg {
-		padding-top: 12px;
-		padding-bottom: 12px;
-	}
-
-	#shed {
-		padding-bottom: 2px;
-	}
-
-	.btn.bigger {
-		font-size: 14px;
-	}
-
-	#yoga .row, #trim .row, #pil .row, #cups .row, #results .row {
-		padding-bottom: 10px;
-		padding-top: 10px;
-	}
-
-	#trim .cap, #pil .cap, #cups .cap, #results .cap {
-		margin-bottom: 10px;
-	}
-
-	p {
-		margin: 0 0 5px;
-	}
-
-	#yoga .separator {
-		margin-bottom: 15px;
-	}
-
-	#cups, #trim, #pil {
-		padding-bottom: 16px;
-	}
-
-	#rev .btn.bigger {
-		margin: 16px auto;
-	}
-
-	#rev {
-		text-align: center;
-	}
-
-	.carousel-control.right, .carousel-control.left {
-		background-image: none;
-	}
-
-	#trener img {
-		margin-bottom: 10px;
-	}
-
-	#trener .row {
-		padding: 0px 10px;
-	}
-
-	#trener .row div {
-		margin-bottom: -8px;
-	}
-
-	#results>div>h3 {
-		margin-top: 0;
-		margin-bottom: 12px;
-	}
-
-	.double-border {
-		width: 66%;
-		margin: 0 auto;
-		padding:5px 10px;
-	}
-
-	.double-border img {
-		margin-left: 5px;
-	}
-
-	#map .row:first-child {
-		padding-bottom: 0;
-		padding-top: 0;
-	}
-	#map {
-		padding-bottom: 10px;
-	}
-
-	#map .cap {
-		margin-bottom: 10px;
-	}
-
-	.main-title {
-		font-size: 28px;
-	}
-
-	#about-us h2 {
-		margin-bottom: 3px;
+    .index #main-menu .toggle {
+        top: 0px;
+        left: 0px;
     }
-    
+
+    .phone {
+        font-size: 30px;
+    }
+
+    .btn {
+        font-size: 18px;
+    }
+
+    .top-panel {
+        display: none;
+    }
+
+    .logo {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .index #main-menu .right .phone {
+        font-size: 17px;
+    }
+
+    .page-social {
+        font-size: 26px;
+    }
+
+    div#overlap-menu .cnt .menu li {
+        line-height: 3vh;
+    }
+
+    div#overlap-menu .phone {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+    .cap h3 {
+        margin: 7px 0;
+    }
+
+    #about-us .title {
+        margin-top: 10px;
+    }
+
+    #about-us .card-body {
+        margin-top: 3px;
+    }
+
+    #about-us .separator {
+        margin-bottom: 30px;
+    }
+
+    .h1,
+    .h2,
+    .h3,
+    h1,
+    h2,
+    h3 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #shed .row {
+        padding-top: 0;
+    }
+
+    .leg {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    #shed {
+        padding-bottom: 2px;
+    }
+
+    .btn.bigger {
+        font-size: 14px;
+    }
+
+    #yoga .row,
+    #trim .row,
+    #pil .row,
+    #cups .row,
+    #results .row {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    #trim .cap,
+    #pil .cap,
+    #cups .cap,
+    #results .cap {
+        margin-bottom: 10px;
+    }
+
+    p {
+        margin: 0 0 5px;
+    }
+
+    #yoga .separator {
+        margin-bottom: 15px;
+    }
+
+    #cups,
+    #trim,
+    #pil {
+        padding-bottom: 16px;
+    }
+
+    #rev .btn.bigger {
+        margin: 16px auto;
+    }
+
+    #rev {
+        text-align: center;
+    }
+
+    .carousel-control.right,
+    .carousel-control.left {
+        background-image: none;
+    }
+
+    #trener img {
+        margin-bottom: 10px;
+    }
+
+    #trener .row {
+        padding: 0px 10px;
+    }
+
+    #trener .row div {
+        margin-bottom: -8px;
+    }
+
+    #results>div>h3 {
+        margin-top: 0;
+        margin-bottom: 12px;
+    }
+
+    .double-border {
+        width: 66%;
+        margin: 0 auto;
+        padding: 5px 10px;
+    }
+
+    .double-border img {
+        margin-left: 5px;
+    }
+
+    #map .row:first-child {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    #map {
+        padding-bottom: 10px;
+    }
+
+    #map .cap {
+        margin-bottom: 10px;
+    }
+
+    .main-title {
+        font-size: 28px;
+    }
+
+    #about-us h2 {
+        margin-bottom: 3px;
+    }
+
     .page-s {
         font-size: 33px;
     }
@@ -378,101 +407,103 @@
     .cnt {
         padding-top: 0;
     }
-
 }
 
 /* Custom, iPhone Retina */
-
 @media only screen and (max-width: 320px) {
-	.logo {
-		margin-bottom: 10px;
-	}
-	.phone {
-		line-height: 1.2;
-	}
-	.social-top .row {
-		padding: 10px 10px;
-	}
-	/*.call {
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    .phone {
+        line-height: 1.2;
+    }
+
+    .social-top .row {
+        padding: 10px 10px;
+    }
+
+    /*.call {
 		margin-bottom: 5px;
 	}*/
-	.call .btn {
-		margin: 10px 0;
-	}
-	.row {
-		padding: 20px 5px;
-	}
-	.col-xs-4,
-	.col-md-12,
-	.col-md-4,
-	.col-sm-6 {
-		padding-right: 8px;
-		padding-left: 8px;
-	}
-	ul {
-		padding-left: 30px;
-	}
-	#stud ul {
-		padding-left: 22px;
-	}
-	#yoga .row+.row {
-		padding-top: 0;
-	}
-	#cups .row+.row {
-		padding-top: 0;
-	}
-	#need .row+.row {
-		padding-top: 0;
-	}
-	#trener img {
-		margin-top: 0;
-	}
-	#results h3 {
-		margin: 0 0 20px 0;
-	}
-	.call {
-		margin-left: 0;
-		margin-right: 0;
-	}
+    .call .btn {
+        margin: 10px 0;
+    }
+
+    .row {
+        padding: 20px 5px;
+    }
+
+    .col-xs-4,
+    .col-md-12,
+    .col-md-4,
+    .col-sm-6 {
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+
+    ul {
+        padding-left: 30px;
+    }
+
+    #stud ul {
+        padding-left: 22px;
+    }
+
+    #yoga .row+.row {
+        padding-top: 0;
+    }
+
+    #cups .row+.row {
+        padding-top: 0;
+    }
+
+    #need .row+.row {
+        padding-top: 0;
+    }
+
+    #trener img {
+        margin-top: 0;
+    }
+
+    #results h3 {
+        margin: 0 0 20px 0;
+    }
+
+    .call {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 /*==========  Mobile First Method  ==========*/
-
 /* Custom, iPhone Retina */
-
 @media only screen and (min-width: 320px) {}
 
 /* Extra Small Devices, Phones */
-
 @media only screen and (min-width: 480px) {
-	.logo-contacts {
-		display: none;
-	}
+    .logo-contacts {
+        display: none;
+    }
 }
 
 /* Small Devices, Tablets */
-
-@media only screen and (min-width: 768px) {
-	
-}
+@media only screen and (min-width: 768px) {}
 
 /* Medium Devices, Desktops */
-
 @media only screen and (min-width: 992px) {
-	.fitness-widget-cell-time {
-		display: none;
-	}
-	.img-responsive {
-		max-width: 75%;
-	}
+    .fitness-widget-cell-time {
+        display: none;
+    }
+
+    .img-responsive {
+        max-width: 75%;
+    }
 }
 
 /* Large Devices, Wide Screens */
-
 @media only screen and (min-width: 1200px) {
-	.cap h3 {
-		margin: 12px 0;
-	}
-	
-	
+    .cap h3 {
+        margin: 12px 0;
+    }
 }

@@ -324,17 +324,6 @@ img {
     clear: both;
 }
 
-.btn {
-    position: relative;
-    display: inline-block;
-}
-
-.btn:active {
-    transform: translate(0px, 5px);
-    -webkit-transform: translate(0px, 5px);
-    box-shadow: 0px 1px 0px 0px;
-}
-
 .red {
     background-color: #e74c3c;
     box-shadow: 0px 5px 0px 0px #CE3323;
@@ -752,7 +741,7 @@ address {
 }
 
 .index .cnt {
-    position: absolute;
+    position: relative;
     width: 100%;
     text-align: center;
     color: #fff;
@@ -802,20 +791,29 @@ address {
     padding-bottom: 16px;
 }
 
-.index .btn {
+.btn {
+    position: relative;
     display: inline-block;
-    font-size: 16px;
-    line-height: 36px;
-    width: 400px !important;
-    margin: 0 auto;
-    color: #fff;
-    padding: 0 27px;
-    border: 2px solid #958881;
-    vertical-align: top;
     -webkit-transition: background-color .5s ease, color .5s ease, border-color .5s ease;
     -moz-transition: background-color .5s ease, color .5s ease, border-color .5s ease;
     -ms-transition: background-color .5s ease, color .5s ease, border-color .5s ease;
     transition: background-color .5s ease, color .5s ease, border-color .5s ease;
+    font-size: 16px;
+    line-height: 36px;
+    margin: 0 auto;
+}
+
+.btn:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0px 1px 0px 0px;
+}
+
+.index .btn {    
+    padding: 0 27px;
+    /* border: 2px solid #958881; */
+    vertical-align: top;
+    
 }
 
 .index #main-menu .right {
@@ -825,19 +823,18 @@ address {
     text-align: right;
 }
 
-.btn.yellow {
+.btn-yellow {
     color: #753908;
     background-color: #fdeaa8;
-    border-color: #633920c4;
+    border: solid 0 #fdeaa8;
+    border-bottom: solid 3px #d3b138;
 }
 
 .btn.bigger {
     border-radius: 4px;
     display: block;
-    width: 100%;
-    color: #753908;
-    background-color: #fdeaa8;
-    border: solid 0 #fdeaa8;
+    width: 90%;
+    max-width: 400px;
     line-height: 47px;
     padding: 0 1rem;
     padding-left: 10px;
@@ -848,12 +845,11 @@ address {
     text-align: center;
     border-radius: 4px;
     border-top: 0;
-    border-bottom: solid 3px #d3b138;
     font-weight: 500;
     -webkit-appearance: none;
 }
 
-.btn:hover {
+.btn-yellow:hover {
     color: white;
     border-color: #b18f16;
     background-color: #ffc600;
@@ -877,6 +873,7 @@ address {
     position: absolute;
     width: 100%;
     height: 142px;
+    top: 0;
 }
 
 .index #main-menu .toggle .a {
@@ -1052,7 +1049,7 @@ div#overlap-menu ul {
     line-height: 76px;
     font-family: kievit-extrabold, Helvetica, Arial;
     font-weight: 400;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     padding-top: 50px;
     padding-bottom: 50px;
     text-rendering: geometricPrecision;
@@ -1226,7 +1223,8 @@ div#overlap-menu .cnt .menu li.sm-bull {
     height: 100%;
     background: url(../img/bg.jpg);
     background-size: cover;
-    transform-origin: bottom left;
+    background-position: center;
+    transform-origin: center center;
     animation: anim 15s linear infinite alternate;
 }
 
@@ -1307,10 +1305,10 @@ ul.o {
     line-height: 1.5;
 }
 
-.modal {
+/* .modal {
     position: fixed;
     top: 300px;
-}
+} */
 
 .help-block {
     font-size: 15px;
@@ -1397,10 +1395,6 @@ ul.o {
     text-shadow: none;
 }
 
-.modal-dialog {
-    width: 400px;
-}
-
 #materials img {
     border: solid 6px orange;
     border-radius: 50%;
@@ -1446,11 +1440,6 @@ ul.o {
     line-height: 32px;
 }
 
-.pop-btn {
-    width: 400px !important;
-    margin: 0 auto;
-}
-
 .sketch-bottom .cover {
     background: rgba(0, 0, 0, 0.8);
 }
@@ -1474,4 +1463,16 @@ ul.o {
 
 .modal-header {
     border-bottom: 0;
+}
+
+.cnt .btn.bigger {
+    margin-bottom: 50px;
+}
+.form-group .btn.bigger {
+    width: 100%;
+}
+
+.modal-dialog {
+    margin: 30px auto;
+    max-width: 400px;
 }
