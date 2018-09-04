@@ -150,6 +150,10 @@ $(function() {
             $('#modelform').hide();
         });
 
+        $('.pop-btn').click(function(){
+            $('.pop').show();
+        });
+
     });
 
 });

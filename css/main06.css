@@ -65,6 +65,11 @@ a {
     color: #411e02;
 }
 
+a:focus, a:hover {
+    color: #c5621f;
+    text-decoration: underline;
+}
+
 /*````````````````My CSS*/
 /*UNIVERSAL*/
 .fm-inverse {
@@ -801,16 +806,12 @@ address {
     display: inline-block;
     font-size: 16px;
     line-height: 36px;
-    height: 36px;
+    width: 400px !important;
+    margin: 0 auto;
     color: #fff;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    border-radius: 20px;
     padding: 0 27px;
     border: 2px solid #958881;
     vertical-align: top;
-    cursor: pointer;
     -webkit-transition: background-color .5s ease, color .5s ease, border-color .5s ease;
     -moz-transition: background-color .5s ease, color .5s ease, border-color .5s ease;
     -ms-transition: background-color .5s ease, color .5s ease, border-color .5s ease;
@@ -831,23 +832,30 @@ address {
 }
 
 .btn.bigger {
-    margin-top: 30px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    border-radius: 25px;
-    font-size: 20px;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    color: #753908;
+    background-color: #fdeaa8;
+    border: solid 0 #fdeaa8;
     line-height: 47px;
-    height: 50px;
-    padding: 0 40px;
-    font-weight: 700;
-    margin: 0 auto;
-    display: inline-block;
+    padding: 0 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 4px;
+    border-top: 0;
+    border-bottom: solid 3px #d3b138;
+    font-weight: 500;
+    -webkit-appearance: none;
 }
 
 .btn:hover {
     color: white;
-    border-color: #fdeaa8;
+    border-color: #b18f16;
     background-color: #ffc600;
 }
 
@@ -1068,7 +1076,8 @@ div#overlap-menu ul {
 }
 
 .page-s i:first-child {
-    color: #fdeaa8; text-shadow: none;
+    color: #fdeaa8;
+    text-shadow: none;
 }
 
 .page-s a:hover .icon-background {
@@ -1304,7 +1313,7 @@ ul.o {
 }
 
 .help-block {
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .mb-2 {
@@ -1331,7 +1340,6 @@ ul.o {
     min-height: 300px;
     max-width: 600px;
     margin: 20px auto;
-
 }
 
 .rev-img {
@@ -1366,4 +1374,29 @@ ul.o {
 .price {
     margin-top: 7px;
     display: inline-block;
+}
+
+.modal form input {
+    font-family: Arial, sans-serif, Helvetica;
+    font-size: 15px;
+    color: #000;
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    border: solid 0 #efefef;
+    height: 48px;
+    line-height: 2.5rem;
+    padding: 0 1rem;
+    margin-bottom: 9px;
+    border-radius: 0;
+    border-top: solid 2px #d3d3d3;
+    box-shadow: none;
+}
+
+.modal h3 {
+    text-shadow: none;
+}
+
+.modal-dialog {
+    width: 400px;
 }
