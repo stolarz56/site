@@ -1328,8 +1328,9 @@ ul.o {
     background-color: #fdeaa8;
     border-radius: 10px;
     min-height: 300px;
-    width: 600px;
+    max-width: 600px;
     margin: 20px auto;
+    
 }
 
 .rev-img {
