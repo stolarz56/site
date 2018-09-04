@@ -1340,3 +1340,19 @@ ul.o {
 .rev a {
     font-size: 30px;
 }
+
+.so-form {
+    width: 500px;
+    bottom: 20px;
+    right: 20px;
+    left: auto;
+    top: auto;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.144), 0 10px 10px rgba(0, 0, 0, 0.096);
+    border-radius: 10px;
+}
+
+.so-form img {
+    margin: 30px auto;
+}

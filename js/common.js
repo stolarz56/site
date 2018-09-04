@@ -42,7 +42,7 @@ $(function() {
     var curDate = new Date();
     var curDay = curDate.getDay()-1;
     if (curDay<0) curDay = 6;
-    console.log(curDay);
+    //console.log(curDay);
     var timeCol = 1;
     var curDayAdaptNum = curDay;
     
@@ -124,7 +124,7 @@ $(function() {
     });
 
     $(window).load(function() {
-        checkVersion($(window).width());
+        //checkVersion($(window).width());
 
         $("a[data-fancybox=group1]").fancybox({
             'transitionIn'		: 'none',
@@ -141,6 +141,13 @@ $(function() {
             'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
                 return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
             }
+        });
+        setTimeout(function(){
+            $('#modelform').show();
+        }, 2000);
+
+        $('#modelformClose').click(function(){
+            $('#modelform').hide();
         });
 
     });

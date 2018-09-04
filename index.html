@@ -542,7 +542,8 @@
                             <input type="text" class="form-control" id="InputName" name="name" placeholder="Ваше имя">
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control form_input_phone" id="InputPhone" name="phone" placeholder="Ваш телефон">
+                            <input type="text" class="form-control form_input_phone" id="InputPhone" name="phone"
+                                placeholder="Ваш телефон">
                         </div>
                         <div class="form-group text-center">
                             <button type="submit" class="btn bigger yellow">Заказать звонок</button>
@@ -555,6 +556,38 @@
         </div>
     </div>
 
+    <!-- Спецпредложение через 30 сек -->
+    <div class="modal so-form" id="modelform" tabindex="-1">
+        <div class="">
+            <button type="button" id="modelformClose" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                    <img src="img/model.png" width="120" alt="3D модель в подарок">
+            </div>
+            <div class="col-md-8">
+                <h4 class="text-center">Оставьте заявку на звонок и получите 3D модель в подарок!</h4>
+                <br>
+                <form name="3Dmodel" method="POST" netlify>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="InputName" name="name" placeholder="Ваше имя">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control form_input_phone" id="InputPhone" name="phone"
+                            placeholder="Ваш телефон">
+                    </div>
+                    <div class="form-group text-center">
+                        <button type="submit" class="btn bigger yellow">Заказать звонок</button>
+                    </div>
+                    <span id="helpBlock" class="text-center help-block">Нажимая кнопку, "Заказать звонок" вы
+                        принимаете условия <span class="text-danger">Политики конфиденциальности</span>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+
     <script src="libs/jquery/jquery-1.11.2.min.js"></script>
     <!-- <script src="libs/waypoints/waypoints.min.js"></script>
 	<script src="libs/animate/animate-css.js"></script> -->
@@ -566,10 +599,10 @@
 
     <script src="js/common.js"></script>
     <script type="text/javascript">
-        jQuery( function($){
-        $(".form_input_phone").mask("+7-999-999-9999").Val(234234);
+        jQuery(function ($) {
+            $(".form_input_phone").mask("+7-999-999-9999");
         });
-        </script>
+    </script>
 
 </body>
 
