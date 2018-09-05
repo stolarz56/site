@@ -1351,6 +1351,7 @@ ul.o {
 
 .so-form {
     width: 500px;
+    max-height: 600px;
     bottom: 20px;
     right: 20px;
     left: auto;
@@ -1359,6 +1360,7 @@ ul.o {
     padding: 10px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.144), 0 10px 10px rgba(0, 0, 0, 0.096);
     border-radius: 10px;
+    transition: 0.3s;
 }
 
 .so-form img {
@@ -1479,3 +1481,53 @@ ul.o {
     margin: 30px auto;
     max-width: 400px;
 }
+
+.so-form.active {
+    width: 70px;
+    max-height: 70px;
+    border-radius: 35px;
+    background-image: url(../img/gifticonnew.png);
+    background-size: cover; 
+}
+
+.so-form.active .row {
+    visibility: hidden;
+}
+
+.so-form.active .close:before, .so-form.active .close:after {
+    background-color:transparent;
+}
+
+.so-form.active .close {
+    right: 0;
+    top: 0;
+    width: 70px;
+    height: 70px;
+}
+
+.close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+    z-index: 1000;
+  }
+  .close:hover {
+    opacity: 1;
+  }
+  .close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }

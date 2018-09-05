@@ -144,15 +144,20 @@ $(function() {
         });
         setTimeout(function(){
             $('#modelform').show();
-        }, 30000);
+        }, 2000);
 
-        $('#modelformClose').click(function(){
-            $('#modelform').hide();
+        $('.modelToggle').click(function(event){
+            event.stopPropagation();
+            $('#modelform').toggleClass('active');
         });
 
-        $('.pop-btn').click(function(){
-            $('.pop').show();
-        });
+        // $('.pop-btn').click(function(){
+        //     $('.pop').show();
+        // });
+
+        // $('#modelform').click(function(){
+        //     $('#modelform').toggleClass('active');
+        // });
 
     });
 
