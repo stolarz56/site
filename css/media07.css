@@ -99,6 +99,10 @@
         font-size: 22px;
     }
 
+    .right {
+        color: white;
+    }
+
     .price {
         font-size: 30px;
         margin-bottom: 20px;
@@ -142,7 +146,7 @@
         line-height: 34px;
         font-family: kievit-extrabold, Helvetica, Arial;
         letter-spacing: 0;
-        padding-top: 40px;
+        padding-top: 15px;
         padding-bottom: 48px;
         text-rendering: geometricPrecision;
     }
@@ -214,11 +218,16 @@
 
 @media only screen and (max-width: 620px) {
     .index .cnt .logo {
-        margin: 160px auto 10px auto;
+        margin: 130px auto 10px auto;
     }
 
     .block_sketch_text {
         font-size: 15px;
+    }
+
+    .index .cnt .logo {
+        width: 120px;
+        height: 120px;
     }
 }
 

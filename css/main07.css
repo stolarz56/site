@@ -1045,8 +1045,8 @@ div#overlap-menu ul {
 }
 
 .index .cnt h2 {
-    font-size: 56px;
-    line-height: 76px;
+    font-size: 40px;
+    line-height: 50px;
     font-family: kievit-extrabold, Helvetica, Arial;
     font-weight: 400;
     letter-spacing: 1px;
@@ -1478,8 +1478,9 @@ ul.o {
 }
 
 .modal-dialog {
-    margin: 30px auto;
+    margin: 0 auto;
     max-width: 400px;
+    height: 100vh;
 }
 
 .so-form.active {
@@ -1531,3 +1532,12 @@ ul.o {
   .close:after {
     transform: rotate(-45deg);
   }
+
+  .small, small {
+    font-size: 65%;
+}
+
+.modal-content {
+    top: 50%;
+    transform: translate(0, -50%);
+}
