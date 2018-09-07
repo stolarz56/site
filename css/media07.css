@@ -531,6 +531,28 @@
         margin-right: 0;
     }
 
+    .so-form .row {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0px 5px;
+    }
+
+    .so-form h4 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .so-form {
+        padding-top: 40px;
+    }
+
+    .modal form input {
+        height: 38px;
+    }
+
+    .so-form .btn.bigger {
+        line-height: 38px;
+    }
     
 }
 
