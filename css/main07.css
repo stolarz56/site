@@ -65,7 +65,8 @@ a {
     color: #411e02;
 }
 
-a:focus, a:hover {
+a:focus,
+a:hover {
     color: #c5621f;
     text-decoration: underline;
 }
@@ -809,11 +810,10 @@ address {
     box-shadow: 0px 1px 0px 0px;
 }
 
-.index .btn {    
+.index .btn {
     padding: 0 27px;
     /* border: 2px solid #958881; */
     vertical-align: top;
-    
 }
 
 .index #main-menu .right {
@@ -1309,7 +1309,6 @@ ul.o {
     position: fixed;
     top: 300px;
 } */
-
 .help-block {
     font-size: 15px;
 }
@@ -1459,10 +1458,10 @@ ul.o {
 .sketch-bottom .cover h2 {
     margin-top: 30px;
     margin-bottom: 0;
-
 }
 
-.sketch-bottom, .sketch-bottom .cover {
+.sketch-bottom,
+.sketch-bottom .cover {
     /* min-height: 230px; */
 }
 
@@ -1473,6 +1472,7 @@ ul.o {
 .cnt .btn.bigger {
     margin-bottom: 50px;
 }
+
 .form-group .btn.bigger {
     width: 100%;
 }
@@ -1488,15 +1488,16 @@ ul.o {
     max-height: 70px;
     border-radius: 35px;
     background-image: url(../img/gifticonnew.png);
-    background-size: cover; 
+    background-size: cover;
 }
 
 .so-form.active .row {
     visibility: hidden;
 }
 
-.so-form.active .close:before, .so-form.active .close:after {
-    background-color:transparent;
+.so-form.active .close:before,
+.so-form.active .close:after {
+    background-color: transparent;
 }
 
 .so-form.active .close {
@@ -1514,30 +1515,75 @@ ul.o {
     height: 32px;
     opacity: 0.3;
     z-index: 1000;
-  }
-  .close:hover {
+}
+
+.close:hover {
     opacity: 1;
-  }
-  .close:before, .close:after {
+}
+
+.close:before,
+.close:after {
     position: absolute;
     left: 15px;
     content: ' ';
     height: 33px;
     width: 2px;
     background-color: #333;
-  }
-  .close:before {
-    transform: rotate(45deg);
-  }
-  .close:after {
-    transform: rotate(-45deg);
-  }
+}
 
-  .small, small {
+.close:before {
+    transform: rotate(45deg);
+}
+
+.close:after {
+    transform: rotate(-45deg);
+}
+
+.small,
+small {
     font-size: 65%;
 }
 
 .modal-content {
     top: 50%;
     transform: translate(0, -50%);
+}
+
+.about-plate {
+    border: solid 2px orange;
+    padding: 10px;
+    font-size: 70%;
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.about-plate i {
+    color: white;
+    background-color: orange;
+    padding: 10px;
+}
+
+.equal {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+}
+
+.media-wrapper {
+    position: relative;
+    top: 50%;
+    transform: translate(0,-50%);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.media-wrapper div {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.about-body {
+    padding-left: 10px;
 }
