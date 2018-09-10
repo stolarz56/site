@@ -76,6 +76,16 @@
     }
 }
 
+@media screen and (max-width: 1200px) {
+    .about-plate {
+        width: 100%;
+    }
+
+    .media-body {
+        vertical-align: middle;
+    }
+}
+
 @media only screen and (max-width: 992px) {
     .fitness-widget-table {
         display: none;
@@ -106,6 +116,10 @@
     .price {
         font-size: 30px;
         margin-bottom: 20px;
+    }
+
+    .about-plate {
+        border: solid 2px transparent;
     }
 }
 
@@ -553,7 +567,7 @@
     .so-form .btn.bigger {
         line-height: 38px;
     }
-    
+
 }
 
 /*==========  Mobile First Method  ==========*/
