@@ -1355,11 +1355,14 @@ ul.o {
     right: 20px;
     left: auto;
     top: auto;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+    background-image: url(../img/cabinet-closet-3d-model-max-obj-3ds-fbx.jpg);
+    background-size: cover;
+    border-radius: 0;
     padding: 10px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.144), 0 10px 10px rgba(0, 0, 0, 0.096);
-    border-radius: 10px;
     transition: 0.3s;
+    text-shadow: 0px 0px 10px #ffffff, 0px 0px 10px #ffffff, 0px 0px 12px #ffffff;
 }
 
 .so-form img {
@@ -1368,7 +1371,8 @@ ul.o {
 
 .so-form h4 {
     line-height: 3rem;
-    font-size: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
 }
 
 .xsmall {
