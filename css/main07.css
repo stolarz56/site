@@ -1483,6 +1483,12 @@ ul.o {
     height: 100vh;
 }
 
+.so-form {
+    background-image: url(../img/cabinet-closet-3d-model-max-obj-3ds-fbx.jpg);
+    background-size: cover;
+    border-radius: 0;
+}
+
 .so-form.active {
     width: 70px;
     max-height: 70px;
